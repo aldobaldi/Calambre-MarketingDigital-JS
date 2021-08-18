@@ -1,0 +1,37 @@
+[
+{   
+    "pId":1000,
+    "pTipo":"Ebook",
+    "pNombre":"Ebook Facebook",
+    "pValor":8,
+    "pImagen":"./multimedia/imagenes/ebook_facebook.png"
+},
+{
+    "pId":1001,
+    "pTipo":"Ebook",
+    "pNombre":"Ebook Instagram",
+    "pValor":8,
+    "pImagen":"multimedia/imagenes/ebook_instagram.png"
+},
+{
+    "pId":1002,
+    "pTipo":"Curso",
+    "pNombre":"Curso Facebook",
+    "pValor":12,
+    "pImagen":"multimedia/imagenes/curso_facebook.png"
+},
+{
+    "pId":1003,
+    "pTipo":"Curso",
+    "pNombre":"Curso Instagram",
+    "pValor":12,
+    "pImagen":"multimedia/imagenes/curso_instagram.png"
+},
+{
+    "pId":1004,
+    "pTipo":"Curso",
+    "pNombre":"Curso Manejo de Redes",
+    "pValor":16,
+    "pImagen":"multimedia/imagenes/curso_manejo_redes.png"
+}
+]

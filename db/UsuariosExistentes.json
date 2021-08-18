@@ -1,0 +1,26 @@
+[
+    {
+        "nombre":"Aldo Baldi",
+        "nombreUsuario":"ABaldi",
+        "email":"aldobaldi15@gmail.com",
+        "pass":"chelo123",
+        "Genero":"Masculino",
+        "Celular":"099902173"
+    },
+    {
+        "nombre":"Emili Diaz",
+        "nombreUsuario":"EDiaz",
+        "email":"emid@gmail.com",
+        "pass":"titico",
+        "Genero":"Femenino",
+        "Celular":"099907773"
+    },
+    {
+        "nombre":"Juan Attun",
+        "nombreUsuario":"JAttun",
+        "email":"jAttun@gmail.com",
+        "pass":"rina",
+        "Genero":"Masculino",
+        "Celular":"099892173"
+    }
+]

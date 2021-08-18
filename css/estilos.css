@@ -1,0 +1,747 @@
+body{
+	padding:none;
+	margin: none;
+}
+
+/*MENU*/
+
+.menu{
+	font-family: Staatliches, Arial;
+	margin: auto;
+	background-color:white;
+	position: fixed;
+	z-index:2;
+}
+
+.menu img{
+	margin:auto;
+	max-width: 85%;
+	padding:10px;
+}
+
+.menu nav{
+	margin:auto;
+}
+
+.menu a{
+	margin:auto;
+	color: black;
+	font-size: 17px;
+}
+
+.menu a:hover{
+	color: 	rgb(227,90,92);
+	transform: scale(1.1);
+	transition: 100ms ease-out;
+}
+
+.pad{
+	padding: 0px;
+}
+
+/*INDEX*/
+/*SECCION1*/
+
+.seccion1{
+	padding-top: 90.28px;
+	
+}
+
+.seccion1 h1{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+ 	transform: translate(-50%, -50%);
+  	width: 100%;
+ 	font-size: 100px;
+ 	font-family: Staatliches, Arial;
+ 	color:white;  
+}
+.back1{
+
+	background-image: url(../multimedia/imagenes/portada_inicio.png);
+	background-position: center center;
+	background-size: cover;
+	height:100vh;
+}
+
+/*SECCION2*/
+/*SECCION2A*/
+.seccion2a{
+	background-color:white;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+.seccion2a h2{
+	font-family: Staatliches, Arial;
+	color: rgb(45,150,132);
+}
+.seccion2a img{
+	border-radius: 7px;
+}
+.seccion2a p{
+	font-family:Open Sans Condensed, Arial;
+	color: black;
+}
+
+
+/*SECCION2B*/
+.seccion2b{
+	display: flex;
+	flex-direction: column;
+	vertical-align: center;
+	font-family: Staatliches, Arial;
+	text-align: center;
+	vertical-align: center;
+	border-left: solid;
+	border-width: 0.5px;
+}
+
+.back2{
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	background-image: url(../multimedia/imagenes/cursos_inicio.png);
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+}
+
+.back2 a{
+	text-decoration: none;
+	margin:auto;
+	color: rgb(79,226,201);
+	font-size: 60px;
+	font-family:Staatliches, Arial bold;
+
+}
+.back2 a:hover{
+	text-shadow: 2px 2px 4px gray;
+	transform: scale(1.05);
+	transition: 100ms ease-out;
+
+}
+
+.back3{
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	background-image: url(../multimedia/imagenes/asesorias_inicio.png);
+	background-position: center center;
+	background-size: cover;
+	height: 100%;
+}
+
+.back3 a{
+	text-decoration: none;
+	margin:auto;
+	color: rgb(79,226,201);
+	font-size: 60px;
+	font-family:Staatliches, Arial bold;
+}
+.back3 a:hover{
+	text-shadow: 2px 2px 4px gray;
+	transform: scale(1.05);
+	transition: 100ms ease-out;
+
+}
+.back4{
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	background-image: url(../multimedia/imagenes/manejo_redes_inicio.png);
+	background-position: center center;
+	background-size: cover;	
+	height: 100%;
+}
+.back4 a{
+	text-decoration: none;
+	margin:auto;
+	color: rgb(79,226,201);
+	font-size: 60px;
+	font-family:Staatliches, Arial bold;
+
+}
+.back4 a:hover{
+	text-shadow: 2px 2px 4px gray;
+	transform: scale(1.05);
+	transition: 100ms ease-out;
+
+}
+
+/*SECCION3*/
+.seccion3{
+	display: flex;
+	flex-direction: row;
+	border-top: solid;
+	border-width: 0.5px;
+	padding: 15px;
+	
+}
+
+/*SECCION3a*/
+.seccion3a {
+	display: flex;
+	flex-direction: row;
+}
+.seccion3a h2{
+	margin:auto;
+	padding: 20px;
+	color: black;
+	font-size: 35px;
+	font-family:Staatliches, Arial bold;
+
+}
+
+/*SECCION3b*/
+.seccion3b{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 30px;
+	border-bottom: solid; 
+	border-width:0.5px;
+}
+
+.seccion3b div{
+	margin:auto;
+}
+
+.seccion3b img{
+	max-width: 100%;
+  	height: auto;
+  	padding: 20px;
+	max-height: 120px;
+	max-width: 120px;
+	
+}
+.seccion3b img:hover{
+	transform: rotateY(360deg);
+	transition: 1s ease-out;
+}
+
+/*FOOTER*/
+
+.footer{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 5px;
+
+}
+.footer img{
+	padding: 5px;
+	transform: scale(0.7);
+}
+
+.footer img:hover{
+	transform: scale(0.8);
+	transition: 100ms ease-out;
+}
+
+
+
+@media (max-width: 576px){
+
+	.menu img{
+		margin:auto;
+		max-width: 40%;
+		min-width:30%;
+	}
+	.menu a{
+		font-size: 13px;
+		padding: 5px;
+	}
+	
+	.seccion1{
+		padding-top: 75.97px;
+		font-size: 25px;
+
+		/*padding-top: 111px;*/
+	}
+	.seccion1 img{
+		max-width: 70%;
+	}
+	.seccion1 h1{
+		font-size: 45px;
+	}
+	.back2 a{
+		font-size: 45px;
+
+	}
+	.back3 a{
+		font-size: 45px;
+	}
+	.back4 a{
+		font-size: 45px;
+	}
+	.seccion3a{
+		font-size: 20px;
+	}
+}
+
+@media (min-width:576px) and (max-width:770px){
+	
+.menu img{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-center;
+	/*max-width: 70%;*/
+	/*padding-top: 15px;*/
+}
+
+.menu nav{
+	 display: flex;
+	 flex-direction:row;
+	
+	 padding-right: 8px;
+	 font-size: 13px;
+}
+
+.seccion1 h1{
+	margin: auto;
+	font-size: 55px;
+}
+}
+
+
+
+/*SERVICIOS*/
+
+.servicios .seccion1a{
+	padding-top: 100px;
+	padding-bottom: 30px;
+	background-color: rgb(231,233,235);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.servicios .seccion1a h1{
+	visibility: hidden;
+}
+
+
+.servicios .seccion1a h2{
+	text-align: center;
+	font-family: Staatliches, Arial bold;
+	font-size: 45px;
+}
+.servicios .seccion1a p{
+	 letter-spacing: 1.5px;
+	 text-align: center;
+}
+
+.servicios .seccion1b{
+	background-color: rgb(231,233,235);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 40px;
+}
+.servicios .seccion1b h2{
+	font-size: 25px;
+}
+.servicios .seccion2a{
+	background-color: rgb(227,90,92);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.servicios .seccion3{
+	display: flex;
+	flex-direction: row;
+	padding-top: 35px;
+}
+.servicios .seccion3 h2{
+	border-color: rgb(227,90,92);
+	border-width: 0.5px;
+	text-align: center;
+	font-family: Staatliches, Arial bold;
+	font-size: 45px;
+}
+.servicios .seccion3a form{
+	background-color: rgb(231,233,235);
+	padding: 40px;
+	border:solid; 
+	border-width: 0.5px;
+}
+.servicios .seccion3a h3{
+	border-color: rgb(227,90,92);
+	border-width: 0.5px;
+	text-align: center;
+	font-family: Staatliches, Arial bold;
+	font-size: 35px;
+}
+.servicios .seccion3a input, textarea{
+	border-color: black;
+	border-style: solid;
+	border-radius: 15px;
+	border-width: 1px;
+}
+.servicios .seccion3a label{
+	padding-top:10px;
+	font-family: Staatliches, Arial bold;
+	color:  rgb(45,150,132);
+
+}
+.servicios .formulario{
+	display: flex;
+	flex-direction: column;
+	padding-top: 35px;
+
+}
+
+.servicios .back{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 0.5px;
+}
+
+.servicios .back p{
+	font-size: 17px;
+	font-family: Staatliches, Arial bold;
+	color:black;
+	text-align: center;
+	padding:20px;
+}
+
+.servicios .back img{
+	padding:20px;
+}
+.servicios .botones{
+	display: flex;
+	flex-direction: row;
+	padding-top: 15px;
+}
+.servicios .botones input{
+	background-color:  rgb(45,150,132);
+	margin-right: 15px;
+	width: 150px;
+}
+.servicios .botones  input:hover{
+	transform: scale(1.05);
+	transition: 100ms ease-out;
+}
+
+.servicios .seccion4{
+	padding-top: 15px;
+}
+.servicios .seccion4 h2{
+	text-align: center;
+	font-family: Staatliches, Arial bold;
+	font-size: 45px;
+}
+
+.servicios .seccion4a{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-style: solid;
+	border-width: 0.5px;
+}
+
+.servicios .seccion4a img{
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom:20px; 
+
+}
+
+.servicios .seccion4a p{
+	font-size: 15px; 
+	text-align: center;
+	padding: 20px;
+	font-family: Staatliches, Arial bold;
+}
+.servicios .seccion4a button{
+	border-radius: 17px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: white;
+	width: 150px;
+	margin: 20px;
+}
+.servicios .seccion4a  button:hover{
+	transform: scale(1.05);
+	transition: 100ms ease-out;
+}
+.servicios .seccion4b img{
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 0.5px;
+}
+
+
+
+/*CLINTES*/
+
+/*SECCION1*/
+.clientes .seccion1{
+	padding-top:120px;	
+	padding-bottom: 30px; 
+}
+/*SECCION1a*/
+ .clientes .seccion1a {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+.clientes .seccion1a h1{
+	
+	color: black;
+	font-size: 35px;
+	font-family:Staatliches, Arial bold;
+
+}
+/*SECCION2*/
+.clientes .seccion2{
+	border-bottom: solid;
+	border-top: solid;
+	border-width: 0.5px;
+}
+/*SECCION2a*/
+.clientes .seccion2a{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 50px;
+	border-right: solid;
+	border-width: 0.5px;
+
+
+}
+.clientes .seccion2a div{
+	margin:auto;
+}
+.clientes .seccion2a img{
+	max-width: 100%;
+  	height: auto;
+  	padding: 20px;
+	max-height: 120px;
+	max-width: 120px;
+}
+.clientes .seccion2a img:hover{
+	transform: scale(1.3);
+	transition: 100ms ease-out;
+}
+.clientes .seccion2b{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.clientes .seccion2b p{
+	font-size: 17px;
+	font-family: Staatliches, Arial bold;
+	color:black;
+	text-align: center;
+	padding:20px;
+}
+
+.clientes .seccion2b img{
+	padding:20px;
+}
+
+/*NOSOTROS*/
+.nosotros{
+	padding-top: 90.28px;
+}
+.nosotros .parrafo h1{
+	padding-top: 15px;
+	text-align: center;
+	font-size: 45px;
+	font-family: Staatliches, Arial bold;
+
+}
+.nosotros .parrafo p {
+	text-align: center;
+	padding-top: 15px;
+
+}
+
+/*CONTACTO*/
+
+.contacto .seccion1a{
+	padding-top: 91.28px;
+}
+.contacto .seccion1a form{
+	margin: auto;
+	max-width: 500px;
+	background-color: rgb(231,233,235);
+	padding: 40px;
+	border:solid; 
+	border-width: 0.5px;
+}
+.contacto .seccion1a h1{
+	border-color: rgb(227,90,92);
+	border-width: 0.5px;
+	text-align: center;
+	font-family: Staatliches, Arial bold;
+	font-size: 35px;
+}
+.contacto .seccion1a input, textarea{
+	border-color: black;
+	border-style: solid;
+	border-radius: 15px;
+	border-width: 1px;
+}
+.contacto .seccion1a label{
+	padding-top:10px;
+	font-family: Staatliches, Arial bold;
+	color:  rgb(45,150,132);
+
+}
+.contacto .formulario{
+	display: flex;
+	flex-direction: column;
+	padding-top: 35px;
+
+}
+.contacto .botones{
+	display: flex;
+	flex-direction: row;
+	padding-top: 15px;
+}
+.contacto .botones input{
+	background-color:  rgb(45,150,132);
+	margin-right: 15px;
+	width: 150px;
+}
+.contacto .botones  input:hover{
+	transform: scale(1.05);
+	transition: 100ms ease-out;
+}
+
+
+/*Ingresar*/
+
+
+
+.ingresar .seccion3{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	
+	padding-top: 90px;
+}
+.ingresar .seccion3 h2{
+	border-color: rgb(227,90,92);
+	border-width: 0.5px;
+	text-align: center;
+	font-family: Staatliches, Arial bold;
+	font-size: 45px;
+}
+.ingresar .seccion3a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ingresar .seccion3a form{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	background-color: rgb(231,233,235);
+	padding: 60px;
+	border:solid; 
+	border-width: 0.5px;
+}
+.ingresar .seccion3a h3{
+	border-color: rgb(227,90,92);
+	border-width: 0.5px;
+	text-align: center;
+	font-family: Staatliches, Arial bold;
+	font-size: 35px;
+}
+.ingresar .seccion3a input, textarea{
+	width: 300px;
+	border-style: solid;
+	border-radius: 15px;
+	border-width: 1px;
+}
+.ingresar .seccion3a label{
+	padding-top:10px;
+	font-family: Staatliches, Arial bold;
+	color:  rgb(45,150,132);
+
+}
+.ingresar .formulario{
+	
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+	padding-top: 35px;
+}
+
+.ingresar .botones{
+	display: flex;
+	flex-direction: row;
+	padding-top: 15px;
+}
+
+.ingresar .botones button{
+	background-color:  rgb(45,150,132);
+	margin-right: 15px;
+	width: 150px;
+}
+
+.ingresar .botones  button:hover{
+	transform: scale(1.05);
+	transition: 100ms ease-out;
+}
+
+
+
+/*TIENDA*/
+.tienda .productos{
+	padding-top:100px;
+}
+
+.tienda .productos .productostitulo{
+	display: flex;
+	flex-direction: column;
+		align-items: stretch;
+
+	border-style: solid;
+	border-width: 0.5px;
+}
+
+.tienda .productos .productostitulo  h2{
+	text-align: center;
+	padding: 20px;
+	font-family: Staatliches, Arial bold;
+	font-size: 35px;
+};
+
+.tienda .productos .carrito{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.tienda .productos .carrito h2{
+	text-align: center;
+	padding: 20px;
+	font-family: Staatliches, Arial bold;
+	font-size: 35px;
+
+}
